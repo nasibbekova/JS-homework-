@@ -114,23 +114,23 @@ let categories = [
     },
 ]
 
-let other = 0
+
 for (let item of arr) {
     if (arr.faculity === 'SMM')
-    categories.push(arr)
+    [item.info.faculity].push(arr.name)
     categories.count++
 } if (arr.faculity ==='PROGRAMMING') {
-    categories.push(arr.name.name)
+    [item.info.faculity].push(arr.name)  
     categories.count++
 } else if (arr.faculity ==='3DSMAX') {
-    categories.push(arr.name)
+    [item.info.faculity].push(arr.name)
     categories.count++
 } else if (arr.faculity ==='DIZAYN') {
-    categories.push(arr.name)
+    [item.info.faculity].push(arr.name)
     categories.count++
 } else if (arr.faculity === 'BACKEND') {
-    categories.push(arr.name)
-     categories.count++
+    [item.info.faculity].push(arr.name)
+    categories.count++
 } 
 
 
